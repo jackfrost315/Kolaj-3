@@ -38,11 +38,12 @@ header {
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  transition: background .3s;
+  transition: background .3s, transform .2s;
 }
 
 .button:hover {
   background: #023e8a;
+  transform: translateY(-2px);
 }
 
 /* Nav */
@@ -147,6 +148,18 @@ section h2 {
 .lector-info h3 {
   margin-bottom: .8rem;
   color: #023e8a;
+}
+
+/* Schedule */
+#cas ul {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+#cas li {
+  margin-bottom: .8rem;
 }
 
 /* Footer */
