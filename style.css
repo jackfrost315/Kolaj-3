@@ -30,6 +30,21 @@ header {
   margin-bottom: 1.5rem;
 }
 
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: .8rem 1.6rem;
+  background: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background .3s;
+}
+
+.button:hover {
+  background: #023e8a;
+}
+
 /* Nav */
 nav {
   background: #fff;
@@ -44,6 +59,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -97,21 +113,6 @@ section h2 {
   color: #023e8a;
 }
 
-/* Buttons */
-.button {
-  display: inline-block;
-  padding: .8rem 1.6rem;
-  background: #0077b6;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background .3s;
-}
-
-.button:hover {
-  background: #023e8a;
-}
-
 /* Footer */
 footer {
   background: #333;
@@ -120,4 +121,15 @@ footer {
   padding: 1.5rem;
   margin-top: 3rem;
   font-size: .9rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  nav ul {
+    gap: 1rem;
+  }
 }
