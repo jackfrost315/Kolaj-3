@@ -89,6 +89,13 @@ section h2 {
   color: #0077b6;
 }
 
+.intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  color: #444;
+}
+
 /* Cards */
 .cards {
   display: grid;
@@ -114,7 +121,7 @@ section h2 {
   color: #023e8a;
 }
 
-/* Lectors section */
+/* Lectors */
 .lectors {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -172,7 +179,7 @@ footer {
   font-size: .9rem;
 }
 
-/* Responsive tweaks */
+/* Responsive */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.2rem;
